@@ -5,7 +5,7 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html
 
 # Expose the default Nginx port
-EXPOSE 80
+EXPOSE 3000
 
 # Start the Nginx server when the container runs
 CMD ["nginx", "-g", "daemon off;"]
