@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy your HTML files to the appropriate directory in the container
-COPY . /usr/share/nginx/html
+COPY .index.html /usr/share/nginx/html
 
 # Expose the default Nginx port
 EXPOSE 3000
